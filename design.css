@@ -1,0 +1,95 @@
+/* Body */
+
+body {
+  background-color: silver;
+}
+
+/* Navigation Section */
+
+nav ul{
+  background-color: #f1f1f1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav li {
+  float: left;
+}
+
+nav li.about {
+   float: right;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family: 'Cairo' , sans-serif;
+  font-size: 30px;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: #111;
+}
+
+/* Content Section */
+
+/* Content Header */
+.header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* Content Boxes */
+.box_containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 500px;
+}
+
+.box1 {
+  background-color: blue;
+  /*height: 400px;*/
+  width: 100px;
+  margin: 50px;
+}
+
+.box2 {
+  background-color: blue;
+  /*height: 100px;*/
+  width: 100px;
+  margin: 50px;
+}
+
+.box3 {
+  background-color: blue;
+  /*height: 500px;*/
+  width: 100px;
+  margin: 50px;
+}
+
+.box4 {
+  background-color: blue;
+  /*height: 200px;*/
+  width: 100px;
+  margin: 50px;
+}
+
+/* Context Game Canvas */
+
+canvas {
+  display: block;
+  margin: auto;
+  background-color: white;
+}
